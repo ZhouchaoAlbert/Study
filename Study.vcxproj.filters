@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\CreateFile">
+      <UniqueIdentifier>{f112436d-476f-445a-9a92-d58ea26b17b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\FriendUnit">
+      <UniqueIdentifier>{10f8370f-f709-4f9c-bca1-f1e6ca64a880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\String">
+      <UniqueIdentifier>{47ea79a4-f517-4092-9d77-99bd7cda1132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Delegate">
+      <UniqueIdentifier>{3ad17e69-f926-4014-a3b3-1df55782a3a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MarkUp">
+      <UniqueIdentifier>{c5fd14f4-6759-4258-9a3c-907d1c9c1aab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateFile.cpp">
+      <Filter>头文件\CreateFile</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendUnitTest.cpp">
+      <Filter>头文件\FriendUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="StdPtrArray.cpp">
+      <Filter>头文件\String</Filter>
+    </ClCompile>
+    <ClCompile Include="StdValArray.cpp">
+      <Filter>头文件\String</Filter>
+    </ClCompile>
+    <ClCompile Include="StdStringPtrMap.cpp">
+      <Filter>头文件\String</Filter>
+    </ClCompile>
+    <ClCompile Include="DuiString.cpp">
+      <Filter>头文件\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Delegate.cpp">
+      <Filter>头文件\Delegate</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMarkup.cpp">
+      <Filter>头文件\MarkUp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CreateFile.h">
+      <Filter>头文件\CreateFile</Filter>
+    </ClInclude>
+    <ClInclude Include="FriendUnitTest.h">
+      <Filter>头文件\FriendUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="StdPtrArray.h">
+      <Filter>头文件\String</Filter>
+    </ClInclude>
+    <ClInclude Include="StdValArray.h">
+      <Filter>头文件\String</Filter>
+    </ClInclude>
+    <ClInclude Include="StdStringPtrMap.h">
+      <Filter>头文件\String</Filter>
+    </ClInclude>
+    <ClInclude Include="DuiString.h">
+      <Filter>头文件\String</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegate.h">
+      <Filter>头文件\Delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMarkup.h">
+      <Filter>头文件\MarkUp</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseDefine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
